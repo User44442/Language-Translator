@@ -41,15 +41,18 @@ async function translateText() {
 
     try {
         let response = await fetch(apiUrl, {
-            method: "POST",
-            body: JSON.stringify({
-                q: text,
-                source: source,
-                target: target,
-                format: "text"
-            }),
-            headers: { "Content-Type": "application/json" }
-        });
+    method: "POST",
+    body: JSON.stringify({
+        q: text,
+        source: source,
+        target: target,
+        format: "text"
+    }),
+    headers: { 
+        "Content-Type": "application/json",
+        "Origin": window.location.origin  // Helps with CORS issues
+    }
+});
 
         let data = await response.json();
         if (data.translatedText) {
