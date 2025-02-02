@@ -1,5 +1,5 @@
 # Language Translator
-It is an Simple Language Translator. It is made on html, css and javascript. It uses LibreTranslate API and it supports most of the common languages. I am just a beginniner at coding (This is the second app/website I had made. 
+It is a Simple Language Translator. It is made on html, css and javascript. It uses LibreTranslate API and it supports most of the common languages. I am just a beginniner at coding (This is the second app/website I had made. 
 
 # Languages
 There are 50+ languages it supports, these are all the languages:
