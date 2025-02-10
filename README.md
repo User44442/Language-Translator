@@ -1,163 +1,298 @@
 # Language Translator
-It is a Simple Language Translator. It is made on html, css and javascript. It uses LibreTranslate API and it supports most of the common languages. I am just a beginniner at coding (This is the second app/website I had made. 
+It is a Simple Language Translator. It is made on html, css and javascript. It supports 95+ languages, I am just a beginniner at coding (This is the second project I have ever made).
 
 # Languages
-There are 50+ languages it supports, these are all the languages:
+There are 95+ languages it supports, these are all the launguages:
 
-1. English (en)
+1. Amharic
 
 
-2. Spanish (es)
+2. Arabic
 
 
-3. French (fr)
+3. Bielarus
 
 
-4. German (de)
+4. Bemba
 
 
-5. Italian (it)
+5. Bislama
 
 
-6. Portuguese (pt)
+6. Bajan
 
 
-7. Dutch (nl)
+7. Bengali
 
 
-8. Russian (ru)
+8. Tibetan
 
 
-9. Chinese (Simplified) (zh)
+9. Breton
 
 
-10. Arabic (ar)
+10. Bosnian
 
 
-11. Hindi (hi)
+11. Catalan
 
 
-12. Japanese (ja)
+12. Coptic
 
 
-13. Korean (ko)
+13. Czech
 
 
-14. Turkish (tr)
+14. Welsh
 
 
-15. Polish (pl)
+15. Danish
 
 
-16. Ukrainian (uk)
+16. Dzongkha
 
 
-17. Romanian (ro)
+17. German
 
 
-18. Czech (cs)
+18. Maldivian
 
 
-19. Greek (el)
+19. Greek
 
 
-20. Swedish (sv)
+20. English
 
 
-21. Finnish (fi)
+21. Spanish
 
 
-22. Danish (da)
+22. Estonian
 
 
-23. Norwegian (no)
+23. Basque
 
 
-24. Hungarian (hu)
+24. Persian
 
 
-25. Hebrew (he)
+25. Finnish
 
 
-26. Thai (th)
+26. Fanagalo
 
 
-27. Vietnamese (vi)
+27. Faroese
 
 
-28. Bengali (bn)
+28. French
 
 
-29. Malay (ms)
+29. Galician
 
 
-30. Tamil (ta)
+30. Gujarati
 
 
-31. Telugu (te)
+31. Hausa
 
 
-32. Gujarati (gu)
+32. Hebrew
 
 
-33. Marathi (mr)
+33. Hindi
 
 
-34. Punjabi (pa)
+34. Croatian
 
 
-35. Nepali (ne)
+35. Hungarian
 
 
-36. Swahili (sw)
+36. Indonesian
 
 
-37. Esperanto (eo)
+37. Icelandic
 
 
-38. Basque (eu)
+38. Italian
 
 
-39. Catalan (ca)
+39. Japanese
 
 
-40. Serbian (sr)
+40. Kazakh
 
 
-41. Croatian (hr)
+41. Khmer
 
 
-42. Slovak (sk)
+42. Kannada
 
 
-43. Slovenian (sl)
+43. Korean
 
 
-44. Bosnian (bs)
+44. Kurdish
 
 
-45. Macedonian (mk)
+45. Kyrgyz
 
 
-46. Albanian (sq)
+46. Latin
 
 
-47. Lithuanian (lt)
+47. Lao
 
 
-48. Latvian (lv)
+48. Latvian
 
 
-49. Estonian (et)
+49. Mende
 
 
-50. Georgian (ka)
+50. Malagasy
 
 
-51. Malayalam (ml)
+51. Maori
 
 
-52. Sinhalese (si)
+52. Malay
 
 
-53. Zulu (zu)
+53. Maltese
+
+
+54. Burmese
+
+
+55. Nepali
+
+
+56. Niuean
+
+
+57. Dutch
+
+
+58. Norwegian
+
+
+59. Nyanja
+
+
+60. Pakistani
+
+
+61. Palauan
+
+
+62. Panjabi
+
+
+63. Pashto
+
+
+64. Pijin
+
+
+65. Polish
+
+
+66. Portuguese
+
+
+67. Kirundi
+
+
+68. Romanian
+
+
+69. Russian
+
+
+70. Sango
+
+
+71. Sinhala
+
+
+72. Slovak
+
+
+73. Samoan
+
+
+74. Shona
+
+
+75. Somali
+
+
+76. Albanian
+
+
+77. Serbian
+
+
+78. Swedish
+
+
+79. Swahili
+
+
+80. Tamil
+
+
+81. Telugu
+
+
+82. Tetum
+
+
+83. Tajik
+
+
+84. Thai
+
+
+85. Tigrinya
+
+
+86. Turkmen
+
+
+87. Tagalog
+
+
+88. Tswana
+
+
+89. Tongan
+
+
+90. Turkish
+
+
+91. Ukrainian
+
+
+92. Uzbek
+
+
+93. Vietnamese
+
+
+94. Wolof
+
+
+95. Xhosa
+
+
+96. Yiddish
+
+
+97. Zulu
+
+
+
