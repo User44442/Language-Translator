@@ -1,0 +1,187 @@
+/* Import Google Font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "KoHo", serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10px;
+  min-height: 100vh;
+  background: #121212; /* Dark Background */
+  color: #ffffff; /* Light Text */
+}
+
+.container {
+  max-width: 690px;
+  width: 100%;
+  padding: 30px;
+  background: #1e1e1e; /* Dark container */
+  border-radius: 7px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Darker shadow */
+}
+
+.wrapper {
+  border-radius: 5px;
+  border: 1px solid #333; /* Darker border */
+}
+
+.wrapper .text-input {
+  display: flex;
+  border-bottom: 1px solid #333; /* Darker border */
+}
+
+.text-input .to-text {
+  border-radius: 0px;
+  border-left: 1px solid #333; /* Darker border */
+}
+
+.text-input textarea {
+  height: 250px;
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+  background: #2a2a2a; /* Dark input */
+  color: #fff; /* Light text */
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.text-input textarea::placeholder {
+  color: #b0b0b0; /* Lighter placeholder */
+}
+
+.controls, li, .icons, .icons i {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.controls {
+  list-style: none;
+  padding: 12px 15px;
+}
+
+.controls .row .icons {
+  width: 38%;
+}
+
+.controls .row .icons i {
+  width: 50px;
+  color: #b0b0b0; /* Lighter icons */
+  font-size: 14px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  justify-content: center;
+}
+
+.controls .row.from .icons {
+  padding-right: 15px;
+  border-right: 1px solid #333; /* Darker border */
+}
+
+.controls .row.to .icons {
+  padding-left: 15px;
+  border-left: 1px solid #333; /* Darker border */
+}
+
+.controls .row select {
+  color: #ffffff; /* Light text */
+  border: none;
+  outline: none;
+  font-size: 18px;
+  background: none;
+  padding-left: 5px;
+}
+
+.text-input textarea::-webkit-scrollbar {
+  width: 4px;
+}
+
+.controls .row select::-webkit-scrollbar {
+  width: 8px;
+}
+
+.text-input textarea::-webkit-scrollbar-track,
+.controls .row select::-webkit-scrollbar-track {
+  background: #2a2a2a; /* Dark scrollbar track */
+}
+
+.text-input textarea::-webkit-scrollbar-thumb {
+  background: #555; /* Dark scrollbar */
+  border-radius: 8px;
+}
+
+.controls .row select::-webkit-scrollbar-thumb {
+  background: #777;
+  border-radius: 8px;
+  border-right: 2px solid #2a2a2a;
+}
+
+.controls .exchange {
+  color: #b0b0b0; /* Lighter icon */
+  cursor: pointer;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.controls i:active {
+  transform: scale(0.9);
+}
+
+.container button {
+  width: 100%;
+  padding: 14px;
+  outline: none;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  font-size: 17px;
+  border-radius: 5px;
+  background: #5372F0; /* Keep the same button color */
+}
+
+@media (max-width: 660px) {
+  .container {
+    padding: 20px;
+  }
+
+  .wrapper .text-input {
+    flex-direction: column;
+  }
+
+  .text-input .to-text {
+    border-left: 0px;
+    border-top: 1px solid #333; /* Darker border */
+  }
+
+  .text-input textarea {
+    height: 200px;
+  }
+
+  .controls .row .icons {
+    display: none;
+  }
+
+  .container button {
+    padding: 13px;
+    font-size: 16px;
+  }
+
+  .controls .row select {
+    font-size: 16px;
+  }
+
+  .controls .exchange {
+    font-size: 14px;
+  }
+}
