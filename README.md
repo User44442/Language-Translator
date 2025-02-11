@@ -2,7 +2,7 @@
 It is a Simple Language Translator. It is made on html, css and javascript. It supports 95+ languages, I am just a beginniner at coding (This is the second project I have ever made).
 
 # Languages
-There are 95+ languages it supports, these are all the launguages:
+There are 95+ languages it supports, these are all the languages:
 
 1. Amharic
 
